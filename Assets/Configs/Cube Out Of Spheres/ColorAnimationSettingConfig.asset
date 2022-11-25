@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef035fa7465e0e14fb268ce1c824e82c, type: 3}
+  m_Name: ColorAnimationSettingConfig
+  m_EditorClassIdentifier: 
+  colorTweenDuration: 2
+  delayBetweenPlanes: 0.0665
+  colorTweenEase: 1
+  startColor: {r: 0.8584906, g: 0.29696208, b: 0.6987453, a: 1}
+  endColor: {r: 0, g: 0.68248296, b: 1, a: 1}

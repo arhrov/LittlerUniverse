@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00060e774f2fce4ea389a0e8f84bc20, type: 3}
+  m_Name: CharacterState_Move
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  allowSelfTransition: 0
+  stateName: 
+  entryActions:
+  - {fileID: 11400000, guid: 69e6b8a46b8a61e42aefa63b579dcab5, type: 2}
+  entryTransitions: []
+  actions:
+  - {fileID: 11400000, guid: 69e6b8a46b8a61e42aefa63b579dcab5, type: 2}
+  transitions:
+  - isForcedTransition: 0
+    forcedState: {fileID: 0}
+    decision: {fileID: 11400000, guid: d11451375c64bb04fad2410cd8d11d79, type: 2}
+    stateWhenTrue: {fileID: 0}
+    stateWhenFalse: {fileID: 11400000, guid: 442b4a1ab64da3d4ca6f5bb792ebf388, type: 2}
+  exitActions: []

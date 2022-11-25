@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52635265110419e40a4c4ef140204f11, type: 3}
+  m_Name: CharacterState_Idle
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 0, g: 0.7602248, b: 1, a: 1}
+  allowSelfTransition: 0
+  stateName: 
+  entryActions: []
+  entryTransitions: []
+  actions: []
+  transitions:
+  - isForcedTransition: 0
+    forcedState: {fileID: 0}
+    decision: {fileID: 11400000, guid: d11451375c64bb04fad2410cd8d11d79, type: 2}
+    stateWhenTrue: {fileID: 11400000, guid: f6a4a0aded768404ea04d2e718ed5822, type: 2}
+    stateWhenFalse: {fileID: 0}
+  exitActions: []
